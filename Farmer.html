@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>?????? ???? ???????</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://assets.onecompiler.app/42r7yz3jt/42r7wfprm/Bulk%20buyers%20shy%20away%20from%20turmeric%20market.jpg'); /* Replace with your image */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+      /* Back arrow button styling */
+      .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background-color: darkgreen;
+        }
+
+    header {
+      background-color: #f0f0f0; /* Light gray header */
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      background-color: #333; /* Dark gray navigation */
+      color: white;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 1em;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+    }
+
+    .login-container {
+      width: 300px;
+      margin: 100px auto;
+      background-color: white;
+      padding: 2em;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    .login-form input {
+      width: 100%;
+      padding: 0.5em;
+      margin: 0.5em 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .login-form button {
+      width: 100%;
+      padding: 0.8em;
+      background-color: #4CAF50; /* Green button */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .login-form a {
+      color: #4CAF50; /* Green link */
+      text-decoration: none;
+      font-size: 0.8em;
+      display: block;
+      text-align: center;
+      margin-top: 1em;
+    }
+    a{
+    text-decoration: none;
+}
+    footer {
+      background-color: #333; /* Dark gray footer */
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+      position: fixed; /* Fix the footer to the bottom */
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+   <!-- Back Arrow Button -->
+   <button class="back-button" onclick="goBack()">&#8592;</button>
+  <header>
+    <h1>Bhartiya Krishi Samridhi</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </nav>
+
+  <div class="login-container">
+    <h2>Farmer Login</h2>
+    <form class="login-form">
+      <input type="text" placeholder="ID" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <a href="UserDetails.html">New User? Sign In</a>
+  </div>
+
+  <footer>
+    <p>Bhartiya krishi samridhi</p>
+    <p>© 2024-2025 SYNTAX.6
+All rights reserved except published datasets/resources and metadata</p>
+  </footer>
+
+  <script>
+    // Function to go back to the previous page
+    function goBack() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>
